@@ -1,11 +1,29 @@
 {
   "name": "oklch-picker",
+  "publisher": "noah-cousins",
   "author": {
     "name": "Noah Cousins"
   },
   "displayName": "OKLCH Color Picker",
   "description": "Color picker support for OKLCH color values in CSS and other files",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noahcousins/oklch-picker.git"
+  },
+  "homepage": "https://github.com/noahcousins/oklch-picker#readme",
+  "bugs": {
+    "url": "https://github.com/noahcousins/oklch-picker/issues"
+  },
+  "keywords": [
+    "oklch",
+    "color",
+    "picker",
+    "css",
+    "color-space",
+    "perceptual"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
