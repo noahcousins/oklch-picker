@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["run", "compile"],
+      "group": "build",
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "never"
+      },
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "watch",
+      "type": "shell",
+      "command": "pnpm",
+      "args": ["run", "watch"],
+      "isBackground": true,
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "panel": "dedicated",
+        "reveal": "never"
+      },
+      "problemMatcher": ["$tsc-watch"]
+    }
+  ]
+}
